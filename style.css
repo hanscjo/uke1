@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    float: right;
+}
+
+ul {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 24px;
+}
+
+li {
+    font-weight: lighter;
+    margin: 2px;
+}
+
+button {
+    padding: 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-style: ridge;
+}
+
