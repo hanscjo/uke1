@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang=""en">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Side om meg!</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="concern.jpg" alt="bilde av meg!" height="400px" width="300px">
-    <h1>Velkommen</h1>
-    <p>Hei! Jeg heter <b>Hans Christian</b>. Jeg bor i Porsgrunn.</p>
-    <ul>
-        <u>Mine hobbyer er:</u>
-        <li>Matlaging</li>
-        <li>Lese ubrukelige fakta</li>
-        <li>Treffe nye folk</li>
-    </ul>
-    <p>Jeg har studert i Trondheim i tre år, og jeg ble veldig glad i byen. Jeg vurderer å flytte tilbake dit dersom jeg får muligheten.</p>
-    <br>
-    <button onclick="randomBodyColour()">Trykk her flere ganger om du tør!!!</button>
+    <div class="page">
+        <div class="header">
+            <h1>Velkommen</h1>
+        </div>
+        <div class="menu">
+            <p>Meny:</p>
+            <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Color picker</a><br>
+            <a href="https://www.youtube.com/watch?v=1JZI8nOKdVU" target="_blank">Bra katt</a>
+        </div>
+        <div class="mainContent">
+            <img src="concern.jpg" alt="bilde av meg!" height="400px" width="300px">
+            <p>Hei! Jeg heter <b>Hans Christian</b>. Jeg bor i Porsgrunn.</p>
+            <ul>
+                <u>Mine hobbyer er:</u>
+                <li>Matlaging</li>
+                <li>Lese ubrukelige fakta</li>
+                <li>Treffe nye folk</li>
+            </ul>
+            <p>Jeg har studert i Trondheim i tre år, og jeg ble veldig glad i byen. Jeg vurderer å flytte tilbake dit dersom jeg får muligheten.</p>
+            <br>
+            <button onclick="randomBodyColour()">Trykk her flere ganger om du tør!!!</button>
+        </div>
+        <div class="footer">
+            <p>Copyright: Jens Stoltenberg</p>
+        </div>
+    </div>
 </body>
 </html>
 <script src="script.js"></script>
