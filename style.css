@@ -30,6 +30,9 @@ div.menu {
 
 div.mainContent {
     grid-area: mainContent;
+}
+
+div.mainContent > p, ul {
     padding: 4px;
 }
 
@@ -42,7 +45,6 @@ div.footer {
 
 img {
     float: right;
-    padding: 0;
 }
 
 ul {
