@@ -36,6 +36,10 @@ div.mainContent > p, ul {
     padding: 4px;
 }
 
+div.mainContent > button {
+    margin: 4px;
+}
+
 div.footer {
     grid-area: footer;
     background-color: lightgrey;
